@@ -1,0 +1,93 @@
+// tablety
+@media (max-width: 800px) {
+  #header-home {
+    height: 30rem;
+
+    .header-content {
+      padding-top: 5rem;
+    }
+  }
+}
+//smartfony
+@media (max-width: 500px) {
+  #main-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  #header {
+    &-home {
+      height: 40rem;
+      border-bottom: 3px solid $main-color;
+      background-position: 20% 30%;
+    }
+    &-inner {
+      height: 10rem;
+    }
+  }
+
+  //   kolumny grid
+  #home-a .specials,
+  #home-b .stats,
+  #home-c .process,
+  #about-d .testimonials,
+  .items {
+    grid-template-columns: 1fr;
+  }
+  #home {
+    &-a {
+      .specials div {
+        border-bottom: 1px $light-color solid;
+        padding-bottom: 1rem;
+        &:last-child {
+          border: none;
+          padding-bottom: 0;
+        }
+      }
+    }
+  }
+  //about
+  #about {
+    &-a {
+      .about-info {
+        grid-template-areas:
+          "bioimage "
+          " bio "
+          "bio"
+          "aw1"
+          "aw2"
+          "aw3";
+      }
+    }
+    &-c {
+      display: none;
+    }
+  }
+
+  //contact
+  #contact {
+    &-a {
+      .text-fields {
+        grid-template-areas:
+          "name"
+          "temat"
+          "email"
+          "wiadomosc ";
+      }
+    }
+    &-b {
+      .contact-info {
+        grid-template-columns: 1fr;
+        height: 7rem;
+      }
+    }
+  }
+
+  //futer
+  #main-footer {
+    height: 7rem;
+    .footer-content {
+      flex-direction: column;
+      padding: 1rem;
+    }
+  }
+}

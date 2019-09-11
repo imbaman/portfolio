@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://kit.fontawesome.com/3160855edc.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Dosis&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Grzegorz</title>
+  </head>
+  <body>
+      <div id="page-container">
+          <div id="content-wrap">
+    <!-- header -->
+    <header id="header-inner">
+      <div class="container">
+        <nav id="main-nav">
+          
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="contact.html" class="current">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- sekcja A kontakt -->
+    <div id="contact-a" class="text-center py-3">
+      <div class="container">
+        <h2 class="section-title">Kontakt</h2>
+        <div class="bottom-line"></div>
+        <p class="lead">Masz pytanie? Napisz do mnie</p>
+        <form method="POST" data-netlify="true" data-netlify-recaptcha="true">
+          <div class="text-fields">
+            <input
+              type="text"
+              class="text-input name-input"
+              placeholder="Imie"
+              name="imie"
+            />
+            <input
+              type="text"
+              class="text-input subject-input"
+              placeholder="Temat"
+              name="temat"
+            />
+            <input
+              type="email"
+              class="text-input email-input"
+              placeholder="Email"
+              name="email"
+            />
+            <textarea
+              class="message-input name-input"
+              placeholder="Wiadomość"
+              name="wiadomosc"
+            ></textarea>
+            <div data-netlify-recaptcha="true"></div>
+          </div>
+          <button type="submit" class="submit btn-dark">Submit</button>
+        </form>
+      </div>
+    </div>
+    <!-- sekcja b -->
+    <section id="contact-b" class="" ">
+      
+        <div class="contact-info">
+          <div>
+            <h3>Email</h3>
+            <p>grzegorzmuskoo@gmail.com</p>
+          </div>
+          <div>
+            <h3>Telefon</h3>
+            <p>666 666 666</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- futer -->
+  </div>
+    <footer id="main-footer">
+      <div class="footer-content container">
+        <p>Copyright &copy; 2019. Grzegorz</p>
+        <div class="social">
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+      </div>
+    </footer>
+
+    <!-- js -->
+    <script src="js/typewriter.js"></script>
+  </div>
+  </body>
+</html>
