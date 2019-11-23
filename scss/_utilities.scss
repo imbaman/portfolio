@@ -30,10 +30,10 @@
   }
 }
 
-button[class^="btn-"]:hover,
-button[class^="submit"]:hover,
-a[class^="btn-"]:hover,
-input[class^="btn-"]:hover {
+button[class^='btn-']:hover,
+button[class^='submit']:hover,
+a[class^='btn-']:hover,
+input[class^='btn-']:hover {
   background-color: $main-color;
 }
 //kazdy przycisk i a z klasa btn

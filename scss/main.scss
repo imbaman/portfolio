@@ -1,6 +1,6 @@
-@import "config";
-@import "utilities";
-@import "item_grid";
+@import 'config';
+@import 'utilities';
+@import 'item_grid';
 
 // generalne
 $color: red;
@@ -10,7 +10,7 @@ $color: red;
   padding: 0;
 }
 body {
-  font-family: "dosis", sans-serif;
+  font-family: 'dosis', sans-serif;
   line-height: 1.6;
   background: #fff;
 }
@@ -187,8 +187,8 @@ img {
     .about-info {
       display: grid;
       grid-template-areas:
-        "bioimage bio bio"
-        "aw1 aw2 aw3";
+        'bioimage bio bio'
+        'aw1 aw2 aw3';
       grid-gap: 1.2rem;
     }
     //grid area
@@ -272,8 +272,8 @@ img {
     .text-fields {
       display: grid;
       grid-template-areas:
-        "name temat email"
-        "wiadomosc wiadomosc wiadomosc";
+        'name temat email'
+        'wiadomosc wiadomosc wiadomosc';
       grid-gap: 1.2rem;
       margin-bottom: 1.2rem;
       //grid areas
@@ -343,4 +343,4 @@ img {
 // }
 // nie wiem jak lepiej
 // responsywnosc
-@import "media";
+@import 'media';
